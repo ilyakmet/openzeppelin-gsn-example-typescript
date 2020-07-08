@@ -13,6 +13,9 @@
     "verify": "truffle run verify --network $NETWORK"
   },
   "devDependencies": {
+    "@openzeppelin/gsn-helpers": "^0.2.3",
+    "@openzeppelin/gsn-provider": "^0.1.10",
+    "@openzeppelin/test-environment": "^0.1.4",
     "bn.js": "^5.1.2",
     "chai": "^4.2.0",
     "chai-bn": "^0.2.1",
@@ -32,6 +35,6 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.0.2"
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0"
   }
 }
